@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: map-service
     spec:
       containers:
-      - image: quay.io/jduimovich0/dc-metro-map
+      - image: quay.io/jduimovich0/dc-metro-map@sha256:89489e5637f540452e1e9e1ae6ba3ec1d8dfb8e2220fc5fc8e4d669a9043b09c
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
